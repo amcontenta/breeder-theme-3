@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="keywords" content="hair studio, barber, barbershop, haircut, hair salon, santa cruz, capitola" />
+  <meta name="description"
+    content="Come visit us for your haircut needs right by the beach in the heart of sunny Capitola Village." />
+  <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
+  <title>{{ title }}</title>
+  <link rel="shortcut icon" type="image/jpg" href="images/favicon.jpg" />
+  <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+  <script>
+    WebFont.load({
+      google: {
+        families: ['Open Sans:400,700', 'Shippori Mincho B1:400,600,800']
+      }
+    });
+  </script>
+  <link rel="stylesheet" href="/app.css" />
+  <script src="https://unpkg.com/scrollreveal"></script>
+</head>
+
+<body data-page="{{ template }}" class="hide-til-load">
+  <div class="page-wrapper">
+    {{> nav isHome=isHome isAdopt=isAdopt isPuppies=isPuppies isParents=isParents isInfo=isInfo isContact=isContact }}
+    {{{body}}}
+    {{> footer }}
+  </div>
+</body>
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script src="
+https://cdnjs.cloudflare.com/ajax/libs/simplelightbox/2.7.0/simple-lightbox.min.js"></script>
+<script src="javascripts/index.js"></script>
+
+</html>

@@ -1,0 +1,79 @@
+@import "variables";
+
+[data-page="futurelitters"] {
+  .future-litters-wrapper {
+    font-family: $font-2;
+    font-size: 18px;
+    color: $color-1;
+  }
+
+  .header-image {
+    height: 500px;
+    // width: 100%;
+    // background-image: url("images/pup-rest.jpg");
+    // background-position: center center;
+    // background-size: cover;
+    // position: relative;
+    // overflow: auto;
+  }
+
+  .title {
+    position: absolute;
+    margin: 394px auto 0 15%;
+  }
+
+  .image-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-left: 125px;
+    margin-right: 125px;
+  }
+
+  .dog-images {
+    width: 50%;
+    max-width: 463px;
+    object-fit: cover;
+    align-self: flex-start;
+  }
+
+  .margin-right {
+    margin-right: 20px;
+  }
+
+  .line-height {
+    line-height: 30px;
+  }
+
+  /* Mobile Styles */
+  @media only screen and (max-width: 950px) {
+    .future-litters-wrapper {
+      font-size: 16px;
+    }
+
+    .header-image {
+      height: 300px;
+    }
+
+    .title {
+      margin: 217px auto 0 auto;
+      width: auto;
+    }
+
+    .image-wrapper {
+      margin-left: 0;
+      margin-right: 0;
+    }
+
+    .dog-images {
+      max-width: 365px;
+    }
+
+    .margin-right {
+      margin-right: 5px;
+    }
+
+    .waitlist-text {
+      line-height: normal;
+    }
+  }
+}

@@ -1,0 +1,63 @@
+@import "variables";
+
+[data-page="faq"] {
+  .faq-wrapper {
+    font-family: $font-2;
+    font-size: 18px;
+    color: $color-1;
+  }
+
+  .header-image {
+    height: 500px;
+    // width: 100%;
+    // background-image: url("images/sleeping.jpg");
+    // background-position: center center;
+    // background-size: cover;
+    // position: relative;
+    // overflow: auto;
+  }
+
+  .title {
+    top: -150px;
+    width: 720px;
+    position: relative;
+  }
+
+  .text-wrapper {
+    position: relative;
+    width: 720px;
+    margin: 0 auto;
+    line-height: 24px;
+  }
+
+  .header {
+    font-weight: 800;
+    font-family: $font-1;
+    font-size: 24px;
+  }
+
+  /* Mobile Styles */
+  @media only screen and (max-width: 950px) {
+    .faq-wrapper {
+      font-size: 16px;
+    }
+
+    .header-image {
+      height: 300px;
+    }
+
+    .title {
+      margin: 217px auto 0 auto;
+      width: auto;
+    }
+
+    .text-wrapper {
+      width: auto;
+    }
+
+    .header {
+      font-size: 22px;
+      line-height: normal;
+    }
+  }
+}

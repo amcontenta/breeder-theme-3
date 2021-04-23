@@ -1,0 +1,68 @@
+@import "variables";
+
+[data-page="adopt"] {
+  .adopt-wrapper {
+    font-family: $font-2;
+    font-size: 18px;
+    color: $color-1;
+  }
+
+  .header-image {
+    height: 500px;
+    // width: 100%;
+    // background-image: url("images/dog-grass.jpg");
+    // background-position: 50% 85%;
+    // background-size: cover;
+    // position: relative;
+    // overflow: auto;
+  }
+
+  .hero-image {
+    object-position: 50% 70%;
+  }
+
+  .title {
+    // margin: 394px auto 0 auto;
+    top: -150px;
+    width: 680px;
+    position: absolute;
+  }
+
+  .text-wrapper {
+    width: 680px;
+    margin: 0 auto;
+    line-height: 24px;
+    position: relative;
+  }
+
+  .ul-bold {
+    font-weight: 800;
+    text-decoration: underline;
+    font-size: 22px;
+  }
+
+  /* Mobile Styles */
+  @media only screen and (max-width: 950px) {
+    .adopt-wrapper {
+      font-size: 16px;
+    }
+
+    .header-image {
+      height: 300px;
+      background-position: 50% 85%;
+    }
+
+    .title {
+      margin: 217px auto 0 auto;
+      width: auto;
+    }
+
+    .ul-bold {
+      font-size: 20px;
+    }
+
+    .text-wrapper {
+      width: auto;
+    }
+  }
+}

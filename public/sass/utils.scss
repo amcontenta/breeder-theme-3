@@ -1,0 +1,84 @@
+@import "variables";
+
+.mb-xxs {
+  margin-bottom: $mb-xxs;
+}
+
+.mb-xs {
+  margin-bottom: $mb-xs;
+}
+
+.mb-s {
+  margin-bottom: $mb-s;
+}
+
+.mb-m {
+  margin-bottom: $mb-m;
+}
+
+.mb-lg {
+  margin-bottom: $mb-lg;
+}
+
+.mb-xl {
+  margin-bottom: $mb-xl;
+}
+
+.ta-center {
+  text-align: center;
+}
+
+.ta-left {
+  text-align: left;
+}
+
+strong {
+  font-weight: bold;
+}
+
+.visible {
+  opacity: 1 !important;
+  visibility: visible !important;
+}
+
+.show {
+  display: block !important;
+}
+
+.show-inline {
+  display: inline !important;
+}
+
+.hide {
+  display: none !important;
+}
+
+.overflow-hidden {
+  overflow: hidden;
+}
+
+@media only screen and (max-width: 950px) {
+  .m-mb-xxs {
+    margin-bottom: $m-mb-xxs;
+  }
+
+  .m-mb-s {
+    margin-bottom: $m-mb-s;
+  }
+
+  .m-mb-m {
+    margin-bottom: $m-mb-m;
+  }
+
+  .m-mb-lg {
+    margin-bottom: $m-mb-lg;
+  }
+
+  .m-mb-none {
+    margin-bottom: 0;
+  }
+
+  .mobile-ta-center {
+    text-align: center;
+  }
+}

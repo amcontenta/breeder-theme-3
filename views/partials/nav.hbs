@@ -1,0 +1,54 @@
+<div class="fade-in desktop-nav-wrapper">
+  <div class="doodles-name-logo"><a href="/">Contenta Doodles</a></div>
+  <div class="nav-links">
+    <a href="adopt" {{#isAdopt}}class="active" {{/isAdopt}}>Adopt</a>
+
+    <div class="dropdown-container">
+      <span class="dropdown-title">Puppies</span>
+      <div class="dropdown">
+        <a class="dropdown-link" href="futurelitters">Future Litters</a>
+        <a class="dropdown-link" href="pastlitters">Past Litters</a>
+      </div>
+    </div>
+    <a href="parents" {{#isParents}}class="active" {{/isParents}}>Parents</a>
+    <div class="dropdown-container">
+      <span class="dropdown-title">Info</span>
+      <div class="dropdown">
+        <a class="dropdown-link" href="faq">FAQ</a>
+        <a class="dropdown-link" href="supplylist">Supply List</a>
+      </div>
+    </div>
+    <a href="contact" {{#isContact}}class="active" {{/isContact}}>Contact</a>
+  </div>
+  <div class="social-media-wrapper">
+    <a href="https://www.instagram.com/">
+      {{> insta-icon width="18px" }}
+    </a>
+    <a href="https://www.facebook.com/">
+      <img src="images/facebook-logo.svg" alt="" height="18">
+    </a>
+  </div>
+</div>
+<div class="mobile-nav-wrapper">
+  <div>
+    <a href="/" class="mobile-logo fade-in">Contenta Doodles
+    </a>
+  </div>
+  <div class="js-hamburger hamburger hamburger--slider hamburger-icon">
+    <div class="hamburger-box">
+      <div class="hamburger-inner"></div>
+    </div>
+  </div>
+</div>
+<div class="mobile-nav-overlay js-mobile-nav-overlay">
+  <div class="mobile-nav-link-wrapper">
+    <a href="adopt">ADOPT</a><br />
+    <a href="futurelitters">FUTURE LITTERS</a><br />
+    <a href="pastlitters">PAST LITTERS</a><br />
+    <a href="parents">PARENTS</a><br />
+    <a href="faq">FAQ</a><br />
+    <a href="supplylist">SUPPLY LIST</a><br />
+    <a href="contact" class="mb-xxs">CONTACT</a><br />
+    <a href=" https://www.instagram.com/elementhair831/"> {{> insta-icon width="25px" class="color-fill" }} </a>
+  </div>
+</div>

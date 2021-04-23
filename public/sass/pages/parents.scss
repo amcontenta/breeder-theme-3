@@ -1,0 +1,119 @@
+@import "variables";
+
+[data-page="parents"] {
+  .parents-wrapper {
+    font-family: $font-2;
+    font-size: 18px;
+    color: $color-1;
+  }
+
+  .header-image {
+    height: 500px;
+    // width: 100%;
+    // background-image: url("images/dog-beach.jpg");
+    // background-position: 50% 30%;
+    // background-size: cover;
+    // position: relative;
+    // overflow: auto;
+  }
+
+  .hero-image {
+    object-position: 50% 30% !important;
+  }
+
+  .title {
+    position: absolute;
+    margin: 394px auto 0 15%;
+  }
+
+  .image-text-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+  }
+
+  .image-dog-1 {
+    width: 463px;
+    height: 420px;
+    background-image: url("images/doodle-dad.jpg");
+    background-position: center center;
+    background-size: cover;
+  }
+
+  .image-dog-2 {
+    width: 463px;
+    height: 420px;
+    background-image: url("images/cavapoo-mom.jpg");
+    background-position: 50% 35%;
+    background-size: cover;
+  }
+
+  .image-dog-3 {
+    width: 463px;
+    height: 420px;
+    background-image: url("images/dog-bed.jpg");
+    background-position: center center;
+    background-size: cover;
+  }
+
+  .paragraph-text {
+    width: 400px;
+    line-height: 30px;
+  }
+
+  .mb-xxxs {
+    margin-bottom: 18px;
+  }
+
+  .font-20 {
+    font-size: 20px;
+  }
+
+  @media only screen and (max-width: 950px) {
+    .parents-wrapper {
+      font-size: 16px;
+    }
+
+    .header-image {
+      height: 300px;
+    }
+
+    .title {
+      margin: 217px auto 0 auto;
+      width: auto;
+      color: white;
+    }
+
+    .image-text-wrapper {
+      display: block;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .image-dog-1 {
+      order: 2;
+      width: 100%;
+      max-width: 580px;
+    }
+
+    .image-dog-2 {
+      order: 2;
+      width: 100%;
+      max-width: 580px;
+    }
+
+    .image-dog-3 {
+      order: 2;
+      width: 100%;
+      max-width: 580px;
+    }
+
+    .paragraph-text {
+      order: 1;
+      width: 100%;
+      max-width: 500px;
+    }
+  }
+}

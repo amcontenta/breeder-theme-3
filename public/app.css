@@ -1,0 +1,1047 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block; }
+
+body {
+  line-height: normal; }
+
+ol,
+ul {
+  list-style: none; }
+
+blockquote,
+q {
+  quotes: none; }
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* Main Font Color */
+/* Buttons and Mobile Nav Link Color */
+/* Footer and New litter background */
+html.sr .load-hidden {
+  visibility: hidden; }
+
+.hide-til-load {
+  display: none; }
+
+.page-wrapper {
+  max-width: 1440px;
+  margin: 0 auto; }
+
+h1 {
+  font-family: Shippori Mincho B1;
+  font-size: 55px;
+  font-weight: 600;
+  color: white; }
+
+h2 {
+  font-family: Shippori Mincho B1;
+  font-size: 40px;
+  font-weight: 600;
+  color: #282b28; }
+
+.font-white {
+  color: white; }
+
+.font-black {
+  color: #282b28; }
+
+.white-fill {
+  fill: white; }
+
+.button {
+  font-family: Open Sans;
+  font-size: 16px;
+  letter-spacing: 1px;
+  color: white;
+  background-color: #483d8b;
+  padding: 17px 37px;
+  border: none;
+  cursor: pointer;
+  transition-duration: 0.1s; }
+  .button:hover {
+    background-color: #282b28;
+    color: white; }
+
+a {
+  color: #483d8b; }
+  a:visited {
+    color: #483d8b; }
+
+.hero-image {
+  object-position: 50% 50%;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; }
+
+@media only screen and (max-width: 950px) {
+  h1 {
+    font-size: 42px; }
+  h2 {
+    font-size: 30px; }
+  .mobile-padding {
+    padding: 0 5%; } }
+
+/* Main Font Color */
+/* Buttons and Mobile Nav Link Color */
+/* Footer and New litter background */
+[data-page="home"] {
+  /* Mobile Styles */ }
+  [data-page="home"] .home-wrapper {
+    font-family: Open Sans;
+    font-size: 18px;
+    color: #282b28; }
+  [data-page="home"] .hero-image {
+    object-position: 50% 0% !important; }
+  [data-page="home"] .white-div {
+    background-color: white;
+    width: 447px;
+    height: 283px;
+    opacity: 0.4;
+    position: absolute;
+    top: 292px;
+    left: 95px; }
+  [data-page="home"] .image-header {
+    font-family: Shippori Mincho B1;
+    font-size: 45px;
+    font-weight: 600;
+    color: #282b28;
+    line-height: 55px;
+    position: absolute;
+    top: 318px;
+    left: 132px;
+    width: 376px;
+    height: 230px; }
+  [data-page="home"] .image-text-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-around; }
+  [data-page="home"] .image-dog-1 {
+    width: 463px;
+    height: 420px;
+    background-image: url("images/fluffy-puppy-medium.jpg");
+    background-position: center top;
+    background-size: cover; }
+  [data-page="home"] .image-dog-2 {
+    width: 463px;
+    height: 420px;
+    background-image: url("images/white-dog-medium.jpg");
+    background-position: center center;
+    background-size: cover; }
+  [data-page="home"] .paragraph-text {
+    width: 400px;
+    line-height: 30px; }
+  [data-page="home"] .padding {
+    padding: 5%; }
+  [data-page="home"] .large-image {
+    height: 590px;
+    width: 100%;
+    background-image: url("images/running-dog.jpg");
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+    overflow: auto; }
+  [data-page="home"] .large-image-text {
+    font-family: Shippori Mincho B1;
+    font-size: 45px;
+    font-weight: 600;
+    color: white;
+    line-height: 55px;
+    margin-top: 183px;
+    margin-left: 95px;
+    text-align: left; }
+  [data-page="home"] .large-image-text-2 {
+    font-family: Open Sans;
+    font-size: 22px;
+    color: white;
+    line-height: 55px;
+    margin-top: 34px;
+    margin-bottom: 30px;
+    text-align: left; }
+  [data-page="home"] .quote {
+    font-family: Shippori Mincho B1;
+    font-size: 45px;
+    font-weight: 600;
+    color: #282b28;
+    line-height: 60px;
+    width: 838px;
+    margin: 0 auto;
+    text-align: center; }
+  [data-page="home"] .small-quote-text {
+    font-family: Open Sans;
+    font-size: 20px;
+    color: #282b28;
+    margin-top: 27px; }
+  [data-page="home"] .gallery-wrapper {
+    background-color: #475a58;
+    padding: 70px 50px; }
+  [data-page="home"] .gallery-text-wrapper {
+    text-align: left; }
+  [data-page="home"] .photo-grid {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 35px;
+    margin-bottom: 45px; }
+  [data-page="home"] .grid-item {
+    width: 25%;
+    margin-right: 25px; }
+    [data-page="home"] .grid-item:nth-child(4n) {
+      margin-right: 0; }
+  @media only screen and (max-width: 950px) {
+    [data-page="home"] .home-wrapper {
+      font-size: 16px; }
+    [data-page="home"] .home-image {
+      height: 635px; }
+    [data-page="home"] .white-div {
+      background-color: white;
+      width: 300px;
+      height: 200px;
+      top: 450px;
+      left: 5%; }
+    [data-page="home"] .image-header {
+      font-size: 30px;
+      line-height: 36px;
+      top: 450px;
+      left: 5%;
+      width: 251px;
+      height: 146px;
+      padding: 24px 25px; }
+    [data-page="home"] .image-text-wrapper {
+      display: block;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center; }
+    [data-page="home"] .padding {
+      padding: 0 5%; }
+    [data-page="home"] .image-dog-1 {
+      order: 1;
+      width: 100%;
+      max-width: 580px; }
+    [data-page="home"] .image-dog-2 {
+      width: 100%;
+      max-width: 580px; }
+    [data-page="home"] .paragraph-text {
+      order: 2;
+      width: 100%;
+      max-width: 500px; }
+    [data-page="home"] .large-image {
+      background-image: none;
+      background-color: #e5e8e8;
+      height: auto;
+      max-width: 580px;
+      margin: 0 auto 60px auto; }
+    [data-page="home"] .large-image-text {
+      width: 100%;
+      margin: 60px auto;
+      text-align: center;
+      color: #282b28;
+      font-size: 35px; }
+    [data-page="home"] .large-image-text-2 {
+      text-align: center;
+      color: #282b28;
+      font-weight: normal;
+      font-size: 20px; }
+    [data-page="home"] .quote {
+      width: auto;
+      font-size: 28px;
+      line-height: normal; }
+    [data-page="home"] .small-quote-text {
+      width: auto;
+      font-size: 16px;
+      margin: 27px auto 0 auto; }
+    [data-page="home"] .gallery-wrapper {
+      padding: 10% 5%; }
+    [data-page="home"] .gallery-text-wrapper {
+      padding: 0 10px; }
+    [data-page="home"] .photo-grid {
+      flex-wrap: wrap;
+      margin-bottom: 20px; }
+      [data-page="home"] .photo-grid .grid-item {
+        width: calc(50% - 25px);
+        margin-bottom: 25px; }
+        [data-page="home"] .photo-grid .grid-item:nth-child(2n) {
+          margin-right: 0; } }
+
+/* Main Font Color */
+/* Buttons and Mobile Nav Link Color */
+/* Footer and New litter background */
+[data-page="adopt"] {
+  /* Mobile Styles */ }
+  [data-page="adopt"] .adopt-wrapper {
+    font-family: Open Sans;
+    font-size: 18px;
+    color: #282b28; }
+  [data-page="adopt"] .header-image {
+    height: 500px; }
+  [data-page="adopt"] .hero-image {
+    object-position: 50% 70%; }
+  [data-page="adopt"] .title {
+    top: -150px;
+    width: 680px;
+    position: absolute; }
+  [data-page="adopt"] .text-wrapper {
+    width: 680px;
+    margin: 0 auto;
+    line-height: 24px;
+    position: relative; }
+  [data-page="adopt"] .ul-bold {
+    font-weight: 800;
+    text-decoration: underline;
+    font-size: 22px; }
+  @media only screen and (max-width: 950px) {
+    [data-page="adopt"] .adopt-wrapper {
+      font-size: 16px; }
+    [data-page="adopt"] .header-image {
+      height: 300px;
+      background-position: 50% 85%; }
+    [data-page="adopt"] .title {
+      margin: 217px auto 0 auto;
+      width: auto; }
+    [data-page="adopt"] .ul-bold {
+      font-size: 20px; }
+    [data-page="adopt"] .text-wrapper {
+      width: auto; } }
+
+/* Main Font Color */
+/* Buttons and Mobile Nav Link Color */
+/* Footer and New litter background */
+[data-page="faq"] {
+  /* Mobile Styles */ }
+  [data-page="faq"] .faq-wrapper {
+    font-family: Open Sans;
+    font-size: 18px;
+    color: #282b28; }
+  [data-page="faq"] .header-image {
+    height: 500px; }
+  [data-page="faq"] .title {
+    top: -150px;
+    width: 720px;
+    position: relative; }
+  [data-page="faq"] .text-wrapper {
+    position: relative;
+    width: 720px;
+    margin: 0 auto;
+    line-height: 24px; }
+  [data-page="faq"] .header {
+    font-weight: 800;
+    font-family: Shippori Mincho B1;
+    font-size: 24px; }
+  @media only screen and (max-width: 950px) {
+    [data-page="faq"] .faq-wrapper {
+      font-size: 16px; }
+    [data-page="faq"] .header-image {
+      height: 300px; }
+    [data-page="faq"] .title {
+      margin: 217px auto 0 auto;
+      width: auto; }
+    [data-page="faq"] .text-wrapper {
+      width: auto; }
+    [data-page="faq"] .header {
+      font-size: 22px;
+      line-height: normal; } }
+
+/* Main Font Color */
+/* Buttons and Mobile Nav Link Color */
+/* Footer and New litter background */
+[data-page="contact"] {
+  /* Mobile Styles */ }
+  [data-page="contact"] .contact-wrapper {
+    font-family: Open Sans;
+    font-size: 20px;
+    color: #282b28;
+    line-height: 30px;
+    overflow: auto; }
+  [data-page="contact"] .text-wrapper {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around; }
+  [data-page="contact"] .questions-wrapper {
+    width: 492px;
+    padding-right: 5%; }
+  [data-page="contact"] .header {
+    font-weight: 600;
+    font-family: Shippori Mincho B1;
+    font-size: 40px;
+    line-height: 45px; }
+  [data-page="contact"] .margin-bottom-1 {
+    margin-bottom: 210px; }
+  [data-page="contact"] .margin-bottom-2 {
+    margin-bottom: 170px; }
+  [data-page="contact"] .margin-bottom-3 {
+    margin-bottom: 28px; }
+  @media only screen and (max-width: 950px) {
+    [data-page="contact"] .contact-wrapper {
+      line-height: normal;
+      font-size: 16px; }
+    [data-page="contact"] .header {
+      font-size: 30px;
+      line-height: 35px; }
+    [data-page="contact"] .text-wrapper {
+      display: block;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin: 0 auto 80px auto; }
+    [data-page="contact"] .questions-wrapper {
+      padding-right: 0; }
+    [data-page="contact"] .contact-info {
+      width: 492px; }
+    [data-page="contact"] .margin-bottom-1 {
+      margin-bottom: 40px; }
+    [data-page="contact"] .margin-bottom-3 {
+      margin-bottom: 15px; }
+    [data-page="contact"] .mobile-margin {
+      margin-bottom: 25px; } }
+
+/* Main Font Color */
+/* Buttons and Mobile Nav Link Color */
+/* Footer and New litter background */
+[data-page="futurelitters"] {
+  /* Mobile Styles */ }
+  [data-page="futurelitters"] .future-litters-wrapper {
+    font-family: Open Sans;
+    font-size: 18px;
+    color: #282b28; }
+  [data-page="futurelitters"] .header-image {
+    height: 500px; }
+  [data-page="futurelitters"] .title {
+    position: absolute;
+    margin: 394px auto 0 15%; }
+  [data-page="futurelitters"] .image-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-left: 125px;
+    margin-right: 125px; }
+  [data-page="futurelitters"] .dog-images {
+    width: 50%;
+    max-width: 463px;
+    object-fit: cover;
+    align-self: flex-start; }
+  [data-page="futurelitters"] .margin-right {
+    margin-right: 20px; }
+  [data-page="futurelitters"] .line-height {
+    line-height: 30px; }
+  @media only screen and (max-width: 950px) {
+    [data-page="futurelitters"] .future-litters-wrapper {
+      font-size: 16px; }
+    [data-page="futurelitters"] .header-image {
+      height: 300px; }
+    [data-page="futurelitters"] .title {
+      margin: 217px auto 0 auto;
+      width: auto; }
+    [data-page="futurelitters"] .image-wrapper {
+      margin-left: 0;
+      margin-right: 0; }
+    [data-page="futurelitters"] .dog-images {
+      max-width: 365px; }
+    [data-page="futurelitters"] .margin-right {
+      margin-right: 5px; }
+    [data-page="futurelitters"] .waitlist-text {
+      line-height: normal; } }
+
+/* Main Font Color */
+/* Buttons and Mobile Nav Link Color */
+/* Footer and New litter background */
+[data-page="pastlitters"] {
+  /* Create four equal columns that sits next to each other */
+  /* Responsive layout - makes a two column-layout instead of four columns */ }
+  [data-page="pastlitters"] .pastlitters-wrapper {
+    font-family: Open Sans;
+    font-size: 18px;
+    color: #282b28;
+    overflow: auto; }
+  [data-page="pastlitters"] .margin-top {
+    margin-top: 150px; }
+  [data-page="pastlitters"] .row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px; }
+  [data-page="pastlitters"] .column {
+    flex: 49%;
+    max-width: 49.5%;
+    padding: 0 4px; }
+  [data-page="pastlitters"] .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%; }
+  @media screen and (max-width: 950px) {
+    [data-page="pastlitters"] .column {
+      flex: 100%;
+      max-width: 100%; }
+    [data-page="pastlitters"] .margin-top {
+      margin-top: 40px; } }
+
+/* Main Font Color */
+/* Buttons and Mobile Nav Link Color */
+/* Footer and New litter background */
+[data-page="parents"] .parents-wrapper {
+  font-family: Open Sans;
+  font-size: 18px;
+  color: #282b28; }
+
+[data-page="parents"] .header-image {
+  height: 500px; }
+
+[data-page="parents"] .hero-image {
+  object-position: 50% 30% !important; }
+
+[data-page="parents"] .title {
+  position: absolute;
+  margin: 394px auto 0 15%; }
+
+[data-page="parents"] .image-text-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center; }
+
+[data-page="parents"] .image-dog-1 {
+  width: 463px;
+  height: 420px;
+  background-image: url("images/doodle-dad.jpg");
+  background-position: center center;
+  background-size: cover; }
+
+[data-page="parents"] .image-dog-2 {
+  width: 463px;
+  height: 420px;
+  background-image: url("images/cavapoo-mom.jpg");
+  background-position: 50% 35%;
+  background-size: cover; }
+
+[data-page="parents"] .image-dog-3 {
+  width: 463px;
+  height: 420px;
+  background-image: url("images/dog-bed.jpg");
+  background-position: center center;
+  background-size: cover; }
+
+[data-page="parents"] .paragraph-text {
+  width: 400px;
+  line-height: 30px; }
+
+[data-page="parents"] .mb-xxxs {
+  margin-bottom: 18px; }
+
+[data-page="parents"] .font-20 {
+  font-size: 20px; }
+
+@media only screen and (max-width: 950px) {
+  [data-page="parents"] .parents-wrapper {
+    font-size: 16px; }
+  [data-page="parents"] .header-image {
+    height: 300px; }
+  [data-page="parents"] .title {
+    margin: 217px auto 0 auto;
+    width: auto;
+    color: white; }
+  [data-page="parents"] .image-text-wrapper {
+    display: block;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; }
+  [data-page="parents"] .image-dog-1 {
+    order: 2;
+    width: 100%;
+    max-width: 580px; }
+  [data-page="parents"] .image-dog-2 {
+    order: 2;
+    width: 100%;
+    max-width: 580px; }
+  [data-page="parents"] .image-dog-3 {
+    order: 2;
+    width: 100%;
+    max-width: 580px; }
+  [data-page="parents"] .paragraph-text {
+    order: 1;
+    width: 100%;
+    max-width: 500px; } }
+
+/* Main Font Color */
+/* Buttons and Mobile Nav Link Color */
+/* Footer and New litter background */
+[data-page="supplylist"] {
+  /* Mobile Styles */ }
+  [data-page="supplylist"] .supply-wrapper {
+    font-family: Open Sans;
+    font-size: 18px;
+    color: #282b28; }
+  [data-page="supplylist"] .header-image {
+    height: 500px; }
+  [data-page="supplylist"] .title {
+    top: -150px;
+    width: 550px;
+    position: absolute; }
+  [data-page="supplylist"] .text-wrapper {
+    width: 550px;
+    margin: 0 auto;
+    line-height: 24px;
+    position: relative; }
+  [data-page="supplylist"] .header {
+    font-weight: 800;
+    font-family: Shippori Mincho B1;
+    font-size: 24px;
+    line-height: 24px; }
+  @media only screen and (max-width: 950px) {
+    [data-page="supplylist"] .supply-wrapper {
+      font-size: 16px; }
+    [data-page="supplylist"] .header-image {
+      height: 300px; }
+    [data-page="supplylist"] .title {
+      margin: 217px auto 0 auto;
+      width: auto; }
+    [data-page="supplylist"] .text-wrapper {
+      margin: 0 auto;
+      width: auto; } }
+
+/* Main Font Color */
+/* Buttons and Mobile Nav Link Color */
+/* Footer and New litter background */
+.footer-wrapper {
+  background-color: #e5e8e8;
+  position: relative;
+  font-family: Open Sans;
+  font-size: 12px;
+  color: #282b28;
+  line-height: 2.5; }
+  .footer-wrapper .social-media-wrapper {
+    position: absolute;
+    top: 72px;
+    right: 61px; }
+    .footer-wrapper .social-media-wrapper a {
+      text-decoration: none;
+      width: 30px;
+      height: 30px;
+      display: inline-flex;
+      justify-content: center;
+      align-items: center; }
+      .footer-wrapper .social-media-wrapper a:nth-child(1) {
+        margin-right: 5px; }
+  .footer-wrapper .contenta-doodles {
+    font-family: Shippori Mincho B1;
+    font-size: 20px;
+    color: #282b28; }
+  .footer-wrapper .padding-text {
+    padding: 50px 0; }
+
+/* Mobile Styles */
+@media only screen and (max-width: 950px) {
+  .footer-wrapper .social-media-wrapper {
+    position: relative;
+    top: 0;
+    right: 0; }
+  .footer-wrapper .padding-text {
+    padding: 35px 0; } }
+
+/* Main Font Color */
+/* Buttons and Mobile Nav Link Color */
+/* Footer and New litter background */
+.desktop-nav-wrapper {
+  position: absolute;
+  width: 100%;
+  z-index: 1;
+  max-width: 1440px; }
+  .desktop-nav-wrapper .doodles-name-logo {
+    position: absolute;
+    top: 21px;
+    left: 29px;
+    font-family: Shippori Mincho B1;
+    font-size: 25px;
+    color: #282b28; }
+    .desktop-nav-wrapper .doodles-name-logo a {
+      color: #282b28;
+      text-decoration: none; }
+  .desktop-nav-wrapper .nav-links {
+    font-family: Open Sans;
+    font-size: 18px;
+    color: #282b28; }
+  .desktop-nav-wrapper .social-media-wrapper {
+    position: absolute;
+    top: 35px;
+    right: 39px; }
+    .desktop-nav-wrapper .social-media-wrapper a {
+      text-decoration: none;
+      display: inline-flex;
+      width: 30px;
+      height: 30px;
+      align-items: center;
+      justify-content: center; }
+      .desktop-nav-wrapper .social-media-wrapper a:first-child {
+        margin-right: 5px; }
+  .desktop-nav-wrapper .nav-links {
+    text-align: center;
+    margin-top: 31px; }
+    .desktop-nav-wrapper .nav-links a {
+      text-decoration: none;
+      font-family: Open Sans;
+      font-size: 16px;
+      text-align: center;
+      margin-right: 34px;
+      color: #282b28; }
+      .desktop-nav-wrapper .nav-links a:hover {
+        color: #483d8b; }
+      .desktop-nav-wrapper .nav-links a:last-child {
+        margin-right: 0; }
+    .desktop-nav-wrapper .nav-links .dropdown-container {
+      display: inline-block;
+      margin-right: 34px;
+      position: relative; }
+      .desktop-nav-wrapper .nav-links .dropdown-container .dropdown {
+        position: absolute;
+        background: white;
+        background: rgba(255, 255, 255, 0.5);
+        padding: 10px 15px;
+        left: -15px;
+        visibility: hidden;
+        white-space: nowrap;
+        transform: translate3d(0, 5px, 0);
+        opacity: 0;
+        transition: transform 0.2s linear, opacity 0.2s ease-out; }
+        .desktop-nav-wrapper .nav-links .dropdown-container .dropdown:before {
+          content: "";
+          width: 100%;
+          height: 7px;
+          top: -7px;
+          left: 0;
+          position: absolute; }
+      .desktop-nav-wrapper .nav-links .dropdown-container:hover .dropdown {
+        opacity: 1;
+        visibility: visible;
+        margin-top: 7px;
+        transform: translate3d(0, 0, 0); }
+      .desktop-nav-wrapper .nav-links .dropdown-container .dropdown-link {
+        display: block;
+        margin-right: auto;
+        text-align: left;
+        cursor: pointer;
+        padding-bottom: 5px; }
+        .desktop-nav-wrapper .nav-links .dropdown-container .dropdown-link:last-child {
+          padding-bottom: 0; }
+      .desktop-nav-wrapper .nav-links .dropdown-container .dropdown-title {
+        font-size: 16px;
+        cursor: pointer; }
+
+.mobile-nav-wrapper {
+  display: none;
+  background-color: white;
+  height: 90px; }
+  .mobile-nav-wrapper .hamburger-icon {
+    position: absolute;
+    top: 22px;
+    right: 28px;
+    cursor: pointer; }
+
+.mobile-logo {
+  font-family: Shippori Mincho B1;
+  font-size: 24px;
+  color: #282b28 !important;
+  position: absolute;
+  top: 26px;
+  left: 25px;
+  text-decoration: none; }
+
+.color-fill {
+  fill: #282b28; }
+
+.mobile-nav-overlay {
+  visibility: hidden;
+  opacity: 0;
+  background-color: white;
+  position: fixed;
+  top: 80px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  transition: opacity 0.2s; }
+
+.close-icon {
+  position: absolute;
+  top: 35px;
+  right: 37px;
+  cursor: pointer;
+  width: 24px;
+  height: 24px;
+  fill: #282b28; }
+
+.mobile-nav-link-wrapper {
+  height: 300px;
+  align-items: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin-top: 78px;
+  margin-left: 25px; }
+  .mobile-nav-link-wrapper a {
+    text-decoration: none;
+    font-family: Open Sans;
+    color: #282b28;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    color: #282b28; }
+
+/* Mobile Styles */
+@media only screen and (max-width: 950px) {
+  .mobile-nav-wrapper {
+    display: block; }
+  .desktop-nav-wrapper {
+    display: none; } }
+
+@media only screen and (min-width: 950px) {
+  .mobile-nav-wrapper,
+  .mobile-nav-overlay {
+    display: none !important; } }
+
+/* Main Font Color */
+/* Buttons and Mobile Nav Link Color */
+/* Footer and New litter background */
+/*!
+ * Hamburgers
+ * @description Tasty CSS-animated hamburgers
+ * @author Jonathan Suh @jonsuh
+ * @site https://jonsuh.com/hamburgers
+ * @link https://github.com/jonsuh/hamburgers
+ */
+.hamburger {
+  padding: 15px 15px;
+  display: inline-block;
+  cursor: pointer;
+  transition-property: opacity, filter;
+  transition-duration: 0.15s;
+  transition-timing-function: linear;
+  font: inherit;
+  color: inherit;
+  text-transform: none;
+  background-color: transparent;
+  border: 0;
+  margin: 0;
+  overflow: visible; }
+  .hamburger:hover {
+    opacity: 0.7; }
+  .hamburger.is-active:hover {
+    opacity: 0.7; }
+  .hamburger.is-active .hamburger-inner,
+  .hamburger.is-active .hamburger-inner::before,
+  .hamburger.is-active .hamburger-inner::after {
+    background-color: #282b28; }
+
+.hamburger-box {
+  width: 24px;
+  height: 16px;
+  display: inline-block;
+  position: relative; }
+
+.hamburger-inner {
+  display: block;
+  top: 50%;
+  margin-top: -1px; }
+  .hamburger-inner, .hamburger-inner::before, .hamburger-inner::after {
+    width: 24px;
+    height: 2px;
+    background-color: #282b28;
+    border-radius: 4px;
+    position: absolute;
+    transition-property: transform;
+    transition-duration: 0.15s;
+    transition-timing-function: ease; }
+  .hamburger-inner::before, .hamburger-inner::after {
+    content: "";
+    display: block; }
+  .hamburger-inner::before {
+    top: -7px; }
+  .hamburger-inner::after {
+    bottom: -7px; }
+
+/*
+     * Slider
+     */
+.hamburger--slider .hamburger-inner {
+  top: 1px; }
+  .hamburger--slider .hamburger-inner::before {
+    top: 7px;
+    transition-property: transform, opacity;
+    transition-timing-function: ease;
+    transition-duration: 0.15s; }
+  .hamburger--slider .hamburger-inner::after {
+    top: 14px; }
+
+.hamburger--slider.is-active .hamburger-inner {
+  transform: translate3d(0, 7px, 0) rotate(45deg); }
+  .hamburger--slider.is-active .hamburger-inner::before {
+    transform: rotate(-45deg) translate3d(-3.42857px, -5px, 0);
+    opacity: 0; }
+  .hamburger--slider.is-active .hamburger-inner::after {
+    transform: translate3d(0, -14px, 0) rotate(-90deg); }
+
+/* Main Font Color */
+/* Buttons and Mobile Nav Link Color */
+/* Footer and New litter background */
+.mb-xxs {
+  margin-bottom: 20px; }
+
+.mb-xs {
+  margin-bottom: 45px; }
+
+.mb-s {
+  margin-bottom: 70px; }
+
+.mb-m {
+  margin-bottom: 85px; }
+
+.mb-lg {
+  margin-bottom: 108px; }
+
+.mb-xl {
+  margin-bottom: 115px; }
+
+.ta-center {
+  text-align: center; }
+
+.ta-left {
+  text-align: left; }
+
+strong {
+  font-weight: bold; }
+
+.visible {
+  opacity: 1 !important;
+  visibility: visible !important; }
+
+.show {
+  display: block !important; }
+
+.show-inline {
+  display: inline !important; }
+
+.hide {
+  display: none !important; }
+
+.overflow-hidden {
+  overflow: hidden; }
+
+@media only screen and (max-width: 950px) {
+  .m-mb-xxs {
+    margin-bottom: 10px; }
+  .m-mb-s {
+    margin-bottom: 40px; }
+  .m-mb-m {
+    margin-bottom: 60px; }
+  .m-mb-lg {
+    margin-bottom: 80px; }
+  .m-mb-none {
+    margin-bottom: 0; }
+  .mobile-ta-center {
+    text-align: center; } }

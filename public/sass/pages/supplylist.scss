@@ -1,0 +1,61 @@
+@import "variables";
+
+[data-page="supplylist"] {
+  .supply-wrapper {
+    font-family: $font-2;
+    font-size: 18px;
+    color: $color-1;
+  }
+
+  .header-image {
+    height: 500px;
+    // width: 100%;
+    // background-image: url("images/dog-bones.jpg");
+    // background-position: 10% 80%;
+    // background-size: cover;
+    // position: relative;
+    // overflow: auto;
+  }
+
+  .title {
+    // margin: 394px auto 0 auto;
+    top: -150px;
+    width: 550px;
+    position: absolute;
+  }
+
+  .text-wrapper {
+    width: 550px;
+    margin: 0 auto;
+    line-height: 24px;
+    position: relative;
+  }
+
+  .header {
+    font-weight: 800;
+    font-family: $font-1;
+    font-size: 24px;
+    line-height: 24px;
+  }
+
+  /* Mobile Styles */
+  @media only screen and (max-width: 950px) {
+    .supply-wrapper {
+      font-size: 16px;
+    }
+
+    .header-image {
+      height: 300px;
+    }
+
+    .title {
+      margin: 217px auto 0 auto;
+      width: auto;
+    }
+
+    .text-wrapper {
+      margin: 0 auto;
+      width: auto;
+    }
+  }
+}

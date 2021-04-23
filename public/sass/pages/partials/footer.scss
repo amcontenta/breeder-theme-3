@@ -1,0 +1,54 @@
+@import "variables";
+
+.footer-wrapper {
+  background-color: $color-4;
+  position: relative;
+  font-family: $font-2;
+  font-size: 12px;
+  color: $color-1;
+  line-height: 2.5;
+
+  .social-media-wrapper {
+    position: absolute;
+    top: 72px;
+    right: 61px;
+
+    a {
+      text-decoration: none;
+      width: 30px;
+      height: 30px;
+      display: inline-flex;
+      justify-content: center;
+      align-items: center;
+
+      &:nth-child(1) {
+        margin-right: 5px;
+      }
+    }
+  }
+
+  .contenta-doodles {
+    font-family: $font-1;
+    font-size: 20px;
+    color: $color-1;
+  }
+
+  .padding-text {
+    padding: 50px 0;
+  }
+}
+
+/* Mobile Styles */
+@media only screen and (max-width: 950px) {
+  .footer-wrapper {
+    .social-media-wrapper {
+      position: relative;
+      top: 0;
+      right: 0;
+    }
+
+    .padding-text {
+      padding: 35px 0;
+    }
+  }
+}

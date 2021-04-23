@@ -1,0 +1,264 @@
+@import "variables";
+
+[data-page="home"] {
+  .home-wrapper {
+    font-family: $font-2;
+    font-size: 18px;
+    color: $color-1;
+  }
+
+  // .home-image {
+  //   height: 720px;
+  //   width: 100%;
+  //   background-image: url("images/dog-home.jpg");
+  //   background-position: center top;
+  //   background-size: cover;
+  // }
+
+  .hero-image {
+    object-position: 50% 0% !important;
+  }
+
+  .white-div {
+    background-color: $color-3;
+    width: 447px;
+    height: 283px;
+    opacity: 0.4;
+    position: absolute;
+    top: 292px;
+    left: 95px;
+  }
+
+  .image-header {
+    font-family: $font-1;
+    font-size: 45px;
+    font-weight: 600;
+    color: $color-1;
+    line-height: 55px;
+    position: absolute;
+    top: 318px;
+    left: 132px;
+    width: 376px;
+    height: 230px;
+  }
+
+  .image-text-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .image-dog-1 {
+    width: 463px;
+    height: 420px;
+    background-image: url("images/fluffy-puppy-medium.jpg");
+    background-position: center top;
+    background-size: cover;
+  }
+
+  .image-dog-2 {
+    width: 463px;
+    height: 420px;
+    background-image: url("images/white-dog-medium.jpg");
+    background-position: center center;
+    background-size: cover;
+  }
+
+  .paragraph-text {
+    width: 400px;
+    line-height: 30px;
+  }
+
+  .padding {
+    padding: 5%;
+  }
+
+  .large-image {
+    height: 590px;
+    width: 100%;
+    background-image: url("images/running-dog.jpg");
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+    overflow: auto;
+  }
+
+  .large-image-text {
+    font-family: $font-1;
+    font-size: 45px;
+    font-weight: 600;
+    color: $color-3;
+    line-height: 55px;
+    margin-top: 183px;
+    margin-left: 95px;
+    text-align: left;
+  }
+
+  .large-image-text-2 {
+    font-family: $font-2;
+    font-size: 22px;
+    color: $color-3;
+    line-height: 55px;
+    margin-top: 34px;
+    margin-bottom: 30px;
+    text-align: left;
+  }
+
+  .quote {
+    font-family: $font-1;
+    font-size: 45px;
+    font-weight: 600;
+    color: $color-1;
+    line-height: 60px;
+    width: 838px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .small-quote-text {
+    font-family: $font-2;
+    font-size: 20px;
+    color: $color-1;
+    margin-top: 27px;
+  }
+
+  .gallery-wrapper {
+    background-color: #475a58;
+    padding: 70px 50px;
+  }
+
+  .gallery-text-wrapper {
+    text-align: left;
+  }
+
+  .photo-grid {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 35px;
+    margin-bottom: 45px;
+  }
+
+  .grid-item {
+    width: 25%;
+    margin-right: 25px;
+
+    &:nth-child(4n) {
+      margin-right: 0;
+    }
+  }
+
+  /* Mobile Styles */
+  @media only screen and (max-width: 950px) {
+    .home-wrapper {
+      font-size: 16px;
+    }
+
+    .home-image {
+      height: 635px;
+    }
+
+    .white-div {
+      background-color: $color-3;
+      width: 300px;
+      height: 200px;
+      top: 450px;
+      left: 5%;
+    }
+
+    .image-header {
+      font-size: 30px;
+      line-height: 36px;
+      top: 450px;
+      left: 5%;
+      width: 251px;
+      height: 146px;
+      padding: 24px 25px;
+    }
+
+    .image-text-wrapper {
+      display: block;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .padding {
+      padding: 0 5%;
+    }
+
+    .image-dog-1 {
+      order: 1;
+      width: 100%;
+      max-width: 580px;
+    }
+
+    .image-dog-2 {
+      width: 100%;
+      max-width: 580px;
+    }
+
+    .paragraph-text {
+      order: 2;
+      width: 100%;
+      max-width: 500px;
+    }
+
+    .large-image {
+      background-image: none;
+      background-color: $color-4;
+      height: auto;
+      max-width: 580px;
+      margin: 0 auto 60px auto;
+    }
+
+    .large-image-text {
+      width: 100%;
+      margin: 60px auto;
+      text-align: center;
+      color: $color-1;
+      font-size: 35px;
+    }
+
+    .large-image-text-2 {
+      text-align: center;
+      color: $color-1;
+      font-weight: normal;
+      font-size: 20px;
+    }
+
+    .quote {
+      width: auto;
+      font-size: 28px;
+      line-height: normal;
+    }
+
+    .small-quote-text {
+      width: auto;
+      font-size: 16px;
+      margin: 27px auto 0 auto;
+    }
+
+    .gallery-wrapper {
+      padding: 10% 5%;
+    }
+
+    .gallery-text-wrapper {
+      padding: 0 10px;
+    }
+
+    .photo-grid {
+      flex-wrap: wrap;
+      margin-bottom: 20px;
+
+      .grid-item {
+        width: calc(50% - 25px);
+        margin-bottom: 25px;
+
+        &:nth-child(2n) {
+          margin-right: 0;
+        }
+      }
+    }
+  }
+}
