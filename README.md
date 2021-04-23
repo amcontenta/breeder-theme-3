@@ -4,7 +4,7 @@ type `cd /Users/ashleycontenta/Desktop/Code/breeder-theme-1`
 
 type `npm start`
 
-visit http://localhost:3000/
+visit http://localhost:3002/
 
 if broken, click into iterm and press "control + c" then type `npm start` into terminal again
 
